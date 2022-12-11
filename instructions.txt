@@ -1,0 +1,5 @@
+This script uses the requests module to send HTTP GET requests to each of the specified URLs. 
+If the response is successful (i.e. the status code is 200), 
+it parses the price from the website's HTML using a parse_price_from_html function, 
+which you would need to implement yourself. 
+If the response is not successful, it prints an error message.
